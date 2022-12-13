@@ -6,6 +6,7 @@
 * @since   2020-01-01
 */
 public class Main {
+  // main program
   public static void main(String[] args) {
     Bike bmx = new Bike("Red", 40);
 
@@ -21,7 +22,7 @@ public class Main {
     bmx.status();
 
     System.out.println("\nRing bell.");
-    bmx.Ring_Bell();
+    bmx.ringBell();
 
     Truck bigTruck = new Truck("Grey", 200, "HGC-3456F");
 
